@@ -5,7 +5,7 @@ import { Sequelize, DataTypes } from 'sequelize';
 const app = express();
 const port = 3000;
 
-const sequelize = new Sequelize('mysql://root:@localhost:3306/midterm-exam', {
+const sequelize = new Sequelize('mysql://root:@localhost:3306/intprog-midterm-exam', {
   dialect: 'mysql',
   logging: false 
 });
