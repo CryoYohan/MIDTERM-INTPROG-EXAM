@@ -13,7 +13,7 @@ const sequelize = new Sequelize('mysql://root:@localhost:3306/midterm-exam', {
 
 sequelize.authenticate()
   .then(() => {
-    console.log('Connection has been established successfully.');
+    console.log('Database Connected!');
   })
   .catch(err => {
     console.error('Unable to connect to the database:', err);
@@ -52,7 +52,7 @@ app.get('/users', async (req, res) => {
     const users = await User.findAll();
     res.json(users);
   } catch (error) {
-    console.error('Error fetching users:', error);
+    console.error('Cannot fetch users at this moment...', error);
   }
 });
 
