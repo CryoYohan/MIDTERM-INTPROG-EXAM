@@ -1,0 +1,27 @@
+{
+  "name": "midterm-intprog-exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "question2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node question3.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CryoYohan/MIDTERM-INTPROG-EXAM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CryoYohan/MIDTERM-INTPROG-EXAM/issues"
+  },
+  "homepage": "https://github.com/CryoYohan/MIDTERM-INTPROG-EXAM#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.13.0",
+    "sequelize": "^6.37.6",
+    "sqlite3": "^5.1.7"
+  }
+}
