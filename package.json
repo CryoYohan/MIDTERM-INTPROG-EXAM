@@ -5,7 +5,8 @@
   "main": "question2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node question3.js"
+    "dev": "node question3.js",
+    "dev:sequelize":"node question5.js"
   },
   "repository": {
     "type": "git",
